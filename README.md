@@ -22,4 +22,26 @@ Like JS: find the good parts, stick to them.
 
 Why? Services are **easy to test**!  They are the "low-hanging fruit".
 
+Angular gives you the opportunity for views to talk to various VMs, which talk to various Models.  VMs don't talk to each other.  Rely on communication in the deeper layer, aka services, not on the VM (or controller level).
+
+Service layer has no reference to the current view.  Controllers (VM) will interface with the views (thus controlling the state for the user).
+
+# Outline
+
+Controllers 
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+
+
+
+
+
+
+
+
+
 
